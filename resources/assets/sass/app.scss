@@ -1,0 +1,22 @@
+@import "_variables";
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+@import "_bootswatch";
+
+
+header{
+    background: #fff url(../img/bg-header.png) no-repeat top left -250px;
+    padding: 20px;
+    margin-bottom: 50px;
+    border-bottom: 5px solid #FFCC2B;
+    text-align: center;
+
+    @include clearfix;
+    .text{
+        padding: 15px 0;
+        margin-left: 200px;
+        color: #0E5E3D;
+        font-size: 30px;
+        font-weight: bold;
+        line-height: 1.5;
+    }
+}
